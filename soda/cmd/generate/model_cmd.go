@@ -19,9 +19,6 @@ func init() {
 	ModelCmd.Flags().StringVarP(&structTag, "struct-tag", "", "json", "sets the struct tags for model (xml or json)")
 	ModelCmd.Flags().StringVarP(&migrationType, "migration-type", "", "fizz", "sets the type of migration files for model (sql or fizz)")
 	ModelCmd.Flags().BoolVarP(&skipMigration, "skip-migration", "s", false, "Skip creating a new fizz migration for this model.")
-
-	inflect.AddAcronym("ID")
-	inflect.AddAcronym("UUID")
 }
 
 // ModelCmd is the cmd to generate a model

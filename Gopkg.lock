@@ -53,6 +53,15 @@
   revision = "fde9ef8da9dd0fdf8a749c7d6b13ac7be5de446d"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/gobuffalo/flect"
+  packages = [
+    ".",
+    "name"
+  ]
+  revision = "2949e73d74b0e81af7fa4c1286968017aa4ce43c"
+
+[[projects]]
   name = "github.com/gobuffalo/makr"
   packages = ["."]
   revision = "2f752af1831478b8c496635cb46b947811097061"
@@ -331,6 +340,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "8f512bd60104349a61b03781dbeada60eb12aa2f5257c8b412eea1ac5a0e51e8"
+  inputs-digest = "518b1a681ada4af9924a61e8dfa19da52d0c5fcbee8247dcb6630de75a51c34e"
   solver-name = "gps-cdcl"
-solver-version = 1
+  solver-version = 1
